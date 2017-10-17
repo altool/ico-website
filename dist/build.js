@@ -10065,6 +10065,8 @@ var _navigation = __webpack_require__(186);
 
 var _navigation2 = _interopRequireDefault(_navigation);
 
+__webpack_require__(192);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -10088,7 +10090,12 @@ var Main = function (_React$Component) {
          return _react2.default.createElement(
             'div',
             null,
-            _react2.default.createElement(_navigation2.default, null)
+            _react2.default.createElement(_navigation2.default, null),
+            _react2.default.createElement(
+               'div',
+               { className: 'centered-block' },
+               _react2.default.createElement('img', { className: 'static-logo', src: 'img/logo.png' })
+            )
          );
       }
    }]);
@@ -22576,8 +22583,6 @@ __webpack_require__(187);
 
 __webpack_require__(190);
 
-__webpack_require__(192);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -22639,9 +22644,9 @@ var Navigation = function (_React$Component) {
                { className: this.state.isMobile ? 'burgerIcon' : 'hide', onClick: function onClick() {
                      _this2.toggleMenu();
                   } },
-               _react2.default.createElement('div', { className: 'burger-icon-one' }),
-               _react2.default.createElement('div', { className: 'burger-icon-two' }),
-               _react2.default.createElement('div', { className: 'burger-icon-three' })
+               _react2.default.createElement('div', null),
+               _react2.default.createElement('div', null),
+               _react2.default.createElement('div', null)
             ),
             _react2.default.createElement('div', { className: 'nav-separator' }),
             _react2.default.createElement(
@@ -22780,7 +22785,7 @@ exports = module.exports = __webpack_require__(49)(undefined);
 
 
 // module
-exports.push([module.i, "button {\n  font-family: 'lato';\n  background: none;\n  border: 0;\n  box-sizing: border-box;\n  margin: 1em;\n  color: #0f00ff;\n  padding: 1em 2em;\n  font-size: inherit;\n  font-weight: 700;\n  position: relative;\n  vertical-align: middle;\n}\nbutton::before,\nbutton::after {\n  box-sizing: inherit;\n  content: '';\n  position: absolute;\n  width: 100%;\n  height: 100%;\n}\n.draw {\n  -webkit-transition: color 0.25s;\n  transition: color 0.25s;\n}\n.draw::before,\n.draw::after {\n  border: 2px solid transparent;\n  width: 0;\n  height: 0;\n}\n.draw::before {\n  top: 0;\n  left: 0;\n}\n.draw::after {\n  bottom: 0;\n  right: 0;\n}\n.draw:hover::before,\n.draw:hover::after {\n  width: 100%;\n  height: 100%;\n}\n.draw:hover::before {\n  border-top-color: #60daaa;\n  border-right-color: #60daaa;\n  -webkit-transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;\n  transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;\n}\n.draw:hover::after {\n  border-bottom-color: #60daaa;\n  border-left-color: #60daaa;\n  -webkit-transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;\n  transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;\n}\n.meet:hover {\n  color: #9f4040;\n}\n.meet::after {\n  top: 0;\n  left: 0;\n}\n.meet:hover::before {\n  border-top-color: #9f4040;\n  border-right-color: #9f4040;\n}\n.meet:hover::after {\n  border-bottom-color: #9f4040;\n  border-left-color: #9f4040;\n  -webkit-transition: height 0.25s ease-out, width 0.25s ease-out 0.25s;\n  transition: height 0.25s ease-out, width 0.25s ease-out 0.25s;\n}\n", ""]);
+exports.push([module.i, "button {\n  font-family: 'lato';\n  background: none;\n  border: 0;\n  box-sizing: border-box;\n  margin: 1em;\n  color: #55ba37;\n  padding: 1em 2em;\n  font-size: inherit;\n  font-weight: 700;\n  position: relative;\n  vertical-align: middle;\n}\nbutton::before,\nbutton::after {\n  box-sizing: inherit;\n  content: '';\n  position: absolute;\n  width: 100%;\n  height: 100%;\n}\n.draw {\n  -webkit-transition: color 0.25s;\n  transition: color 0.25s;\n}\n.draw::before,\n.draw::after {\n  border: 2px solid transparent;\n  width: 0;\n  height: 0;\n}\n.draw::before {\n  top: 0;\n  left: 0;\n}\n.draw::after {\n  bottom: 0;\n  right: 0;\n}\n.draw:hover::before,\n.draw:hover::after {\n  width: 100%;\n  height: 100%;\n}\n.draw:hover::before {\n  border-top-color: #60daaa;\n  border-right-color: #60daaa;\n  -webkit-transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;\n  transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;\n}\n.draw:hover::after {\n  border-bottom-color: #60daaa;\n  border-left-color: #60daaa;\n  -webkit-transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;\n  transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;\n}\n.meet:hover {\n  color: #b33d3d;\n}\n.meet::after {\n  top: 0;\n  left: 0;\n}\n.meet:hover::before {\n  border-top-color: #b33d3d;\n  border-right-color: #b33d3d;\n}\n.meet:hover::after {\n  border-bottom-color: #b33d3d;\n  border-left-color: #b33d3d;\n  -webkit-transition: height 0.25s ease-out, width 0.25s ease-out 0.25s;\n  transition: height 0.25s ease-out, width 0.25s ease-out 0.25s;\n}\n", ""]);
 
 // exports
 
@@ -22920,7 +22925,7 @@ exports = module.exports = __webpack_require__(49)(undefined);
 
 
 // module
-exports.push([module.i, "nav {\n  width: 100%;\n  box-shadow: 0px 5px 20px 10px #dcdcdc;\n  padding: 0 50px;\n  position: relative;\n}\nnav img {\n  width: 100px;\n  height: 100px;\n  float: left;\n}\nnav.static-menu {\n  box-shadow: none;\n  background-color: transparent;\n}\nnav.static-menu img {\n  display: none;\n}\n.burgerIcon {\n  height: 40px;\n  width: 40px;\n  margin-top: 30px;\n  float: right;\n  cursor: pointer;\n}\n.burgerIcon div {\n  height: 5px;\n  width: 40px;\n  background-color: #808080;\n  margin-top: 7px;\n}\n.burger-icon-one,\nbackground-color: purple,\nwidth: 500px,\nheight: 500px,\n.nav-separator {\n  width: 50%;\n}\n.nav-buttons {\n  float: right;\n}\n.nav-buttons a {\n  text-align: center;\n  text-decoration: none;\n  cursor: default;\n  height: 100px;\n  line-height: 100px;\n}\n.nav-buttons a button {\n  cursor: pointer;\n}\n.nav-overlay {\n  width: 100vw;\n  height: 100vh;\n  background-color: #9f4040;\n  z-index: 100;\n  position: fixed;\n  top: 0;\n  left: 0;\n}\n.nav-overlay .nav-overlay-buttons {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n.nav-overlay .nav-overlay-buttons a button {\n  color: #fff;\n  cursor: pointer;\n}\n.hide {\n  display: none;\n}\n", ""]);
+exports.push([module.i, "nav {\n  width: 100%;\n  box-shadow: 0px 5px 20px 10px #dcdcdc;\n  padding: 0 200px;\n  position: relative;\n}\nnav img {\n  width: 100px;\n  height: 100px;\n  float: left;\n}\nnav.static-menu {\n  box-shadow: none;\n  background-color: transparent;\n}\nnav.static-menu img {\n  display: none;\n}\n.burgerIcon {\n  height: 40px;\n  width: 40px;\n  margin-top: 30px;\n  margin-right: 50px;\n  float: right;\n  cursor: pointer;\n}\n.burgerIcon div {\n  height: 5px;\n  width: 40px;\n  background-color: #808080;\n  margin-top: 7px;\n}\n.nav-separator {\n  width: 50%;\n}\n.nav-buttons {\n  float: right;\n}\n.nav-buttons a {\n  text-align: center;\n  text-decoration: none;\n  cursor: default;\n  height: 100px;\n  line-height: 100px;\n}\n.nav-buttons a button {\n  cursor: pointer;\n}\n.nav-overlay {\n  width: 100vw;\n  height: 100vh;\n  background-color: #b33d3d;\n  z-index: 100;\n  position: fixed;\n  top: 0;\n  left: 0;\n}\n.nav-overlay .nav-overlay-buttons {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n.nav-overlay .nav-overlay-buttons a button {\n  color: #fff;\n  cursor: pointer;\n}\n.hide {\n  display: none;\n}\n@media (max-width: 1375px) {\n  nav {\n    padding: 0 100px;\n  }\n}\n@media (max-width: 1175px) {\n  nav {\n    padding: 0 0;\n  }\n}\n", ""]);
 
 // exports
 
@@ -22965,7 +22970,7 @@ exports = module.exports = __webpack_require__(49)(undefined);
 
 
 // module
-exports.push([module.i, "* {\n  box-sizing: border-box;\n}\nbody {\n  margin: 0;\n  width: 100%;\n  font-family: 'lato';\n  font-size: 14pt;\n}\nbody > div {\n  width: 100%;\n}\n", ""]);
+exports.push([module.i, "* {\n  box-sizing: border-box;\n}\nbody {\n  margin: 0;\n  width: 100%;\n  font-family: 'lato';\n  font-size: 14pt;\n}\nbody > div {\n  width: 100%;\n}\n.static-logo {\n  width: 300px;\n  margin-top: -70px;\n}\n.centered-block {\n  padding: 0 200px;\n}\n@media (max-width: 1375px) {\n  .centered-block {\n    padding: 0 100px;\n  }\n}\n@media (max-width: 1175px) {\n  .centered-block {\n    padding: 0 0;\n  }\n}\n@media (max-width: 1000px) {\n  .static-logo {\n    width: 200px;\n  }\n}\n", ""]);
 
 // exports
 

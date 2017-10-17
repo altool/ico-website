@@ -2,7 +2,6 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './../stylus/button-hover.styl'
 import './../stylus/navigation.styl'
-import './../stylus/index.styl'
 
 const mobileScreenSize = 869
 const floatingMenuScroll = 165
@@ -48,9 +47,9 @@ class Navigation extends React.Component {
             <div className={this.state.isMobile ? 'burgerIcon' : 'hide'} onClick={() => {
                this.toggleMenu()
             }}>
-               <div className="burger-icon-one"></div>
-               <div className="burger-icon-two"></div>
-               <div className="burger-icon-three"></div>
+               <div></div>
+               <div></div>
+               <div></div>
             </div>
             <div className="nav-separator"></div>
             <div className={this.state.isMobile ? 'hide' : 'nav-buttons'}>

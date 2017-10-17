@@ -1,10 +1,9 @@
-buttonColor = #0f00ff
-buttonHover = #9f4040
+@import './colors'
 
 nav
 	width: 100%
 	box-shadow: 0px 5px 20px 10px gainsboro
-	padding: 0 50px
+	padding: 0 200px
 	position: relative
 
 	img
@@ -23,6 +22,7 @@ nav.static-menu
 	height: 40px
 	width: 40px
 	margin-top: 30px
+	margin-right: 50px
 	float: right
 	cursor: pointer
 
@@ -31,11 +31,6 @@ nav.static-menu
 		width: 40px
 		background-color: grey
 		margin-top: 7px
-
-.burger-icon-one
-   background-color: purple
-   width: 500px
-   height: 500px
 
 .nav-separator
 	width: 50%
@@ -74,3 +69,11 @@ nav.static-menu
 
 .hide
 	display: none
+
+@media (max-width: 1375px)
+	nav
+		padding: 0 100px
+
+@media (max-width: 1175px)
+	nav
+		padding: 0 0

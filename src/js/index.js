@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Navigation from './navigation'
+import './../stylus/index.styl'
 
 class Main extends React.Component {
    constructor(props) {
@@ -11,6 +12,9 @@ class Main extends React.Component {
       return(
          <div>
             <Navigation />
+            <div className="centered-block">
+               <img className="static-logo" src="img/logo.png"/>
+            </div>
          </div>
       )
    }
