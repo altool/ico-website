@@ -1,0 +1,76 @@
+buttonColor = #0f00ff
+buttonHover = #9f4040
+
+nav
+	width: 100%
+	box-shadow: 0px 5px 20px 10px gainsboro
+	padding: 0 50px
+	position: relative
+
+	img
+		width: 100px
+		height: 100px
+		float: left
+
+nav.static-menu
+	box-shadow: none
+	background-color: transparent
+
+	img
+		display: none
+
+.burgerIcon
+	height: 40px
+	width: 40px
+	margin-top: 30px
+	float: right
+	cursor: pointer
+
+	div
+		height: 5px
+		width: 40px
+		background-color: grey
+		margin-top: 7px
+
+.burger-icon-one
+   background-color: purple
+   width: 500px
+   height: 500px
+
+.nav-separator
+	width: 50%
+
+.nav-buttons
+	float: right
+
+	a
+		text-align: center
+		text-decoration: none
+		cursor: default
+		height: 100px
+		line-height: 100px
+
+	a button
+		cursor: pointer
+
+.nav-overlay
+	width: 100vw
+	height: 100vh
+	background-color: buttonHover
+	z-index: 100
+	position: fixed
+	top: 0
+	left: 0
+
+	.nav-overlay-buttons
+		display: flex
+		flex-direction: column
+		justify-content: center
+		align-items: center
+
+		a button
+			color: white
+			cursor: pointer
+
+.hide
+	display: none
