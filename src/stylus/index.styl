@@ -11,11 +11,41 @@ body > div
 	width: 100%
 
 .static-logo
-	width: 300px
+	width: 200px
 	margin-top: -70px
 
 .centered-block
 	padding: 0 200px
+
+.text-block
+	position: relative
+	z-index: 100
+	left: 20%
+	top: 100px
+
+	h1
+		font-size: 40pt
+
+	p
+		font-size: 20pt
+
+.big-circle
+	position: absolute
+	top: 40vh
+	width: 45vw
+
+.medium-circle
+	position: absolute
+	right: 0
+	top: 170vh
+	width: 40vw
+
+.small-circle
+	position: absolute
+	right: 10%
+	top: 18vh
+	width: 10vw
+	min-width: 100px
 
 @media (max-width: 1375px)
 	.centered-block
@@ -24,7 +54,3 @@ body > div
 @media (max-width: 1175px)
 	.centered-block
 		padding: 0 0
-
-@media (max-width: 1000px)
-	.static-logo
-		width: 200px

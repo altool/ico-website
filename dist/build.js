@@ -10095,7 +10095,39 @@ var Main = function (_React$Component) {
                'div',
                { className: 'centered-block' },
                _react2.default.createElement('img', { className: 'static-logo', src: 'img/logo.png' })
-            )
+            ),
+            _react2.default.createElement(
+               'div',
+               { className: 'text-block' },
+               _react2.default.createElement(
+                  'h1',
+                  null,
+                  'ICO Website'
+               ),
+               _react2.default.createElement(
+                  'p',
+                  null,
+                  'We proud ourselves for producing amazing products'
+               ),
+               _react2.default.createElement(
+                  'p',
+                  null,
+                  'But we need monies to pay our bills (and cars)'
+               ),
+               _react2.default.createElement(
+                  'p',
+                  null,
+                  'That\'s why you\'re here, to give us your monies'
+               ),
+               _react2.default.createElement(
+                  'button',
+                  null,
+                  'Join Our ICO'
+               )
+            ),
+            _react2.default.createElement('img', { className: 'big-circle', src: 'img/big-circle.png' }),
+            _react2.default.createElement('img', { className: 'medium-circle', src: 'img/medium-circle.png' }),
+            _react2.default.createElement('img', { className: 'small-circle', src: 'img/small-circle.png' })
          );
       }
    }]);
@@ -22970,7 +23002,7 @@ exports = module.exports = __webpack_require__(49)(undefined);
 
 
 // module
-exports.push([module.i, "* {\n  box-sizing: border-box;\n}\nbody {\n  margin: 0;\n  width: 100%;\n  font-family: 'lato';\n  font-size: 14pt;\n}\nbody > div {\n  width: 100%;\n}\n.static-logo {\n  width: 300px;\n  margin-top: -70px;\n}\n.centered-block {\n  padding: 0 200px;\n}\n@media (max-width: 1375px) {\n  .centered-block {\n    padding: 0 100px;\n  }\n}\n@media (max-width: 1175px) {\n  .centered-block {\n    padding: 0 0;\n  }\n}\n@media (max-width: 1000px) {\n  .static-logo {\n    width: 200px;\n  }\n}\n", ""]);
+exports.push([module.i, "* {\n  box-sizing: border-box;\n}\nbody {\n  margin: 0;\n  width: 100%;\n  font-family: 'lato';\n  font-size: 14pt;\n}\nbody > div {\n  width: 100%;\n}\n.static-logo {\n  width: 200px;\n  margin-top: -70px;\n}\n.centered-block {\n  padding: 0 200px;\n}\n.text-block {\n  position: relative;\n  z-index: 100;\n  left: 20%;\n  top: 100px;\n}\n.text-block h1 {\n  font-size: 40pt;\n}\n.text-block p {\n  font-size: 20pt;\n}\n.big-circle {\n  position: absolute;\n  top: 40vh;\n  width: 45vw;\n}\n.medium-circle {\n  position: absolute;\n  right: 0;\n  top: 170vh;\n  width: 40vw;\n}\n.small-circle {\n  position: absolute;\n  right: 10%;\n  top: 18vh;\n  width: 10vw;\n  min-width: 100px;\n}\n@media (max-width: 1375px) {\n  .centered-block {\n    padding: 0 100px;\n  }\n}\n@media (max-width: 1175px) {\n  .centered-block {\n    padding: 0 0;\n  }\n}\n", ""]);
 
 // exports
 
