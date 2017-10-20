@@ -17,7 +17,7 @@ class Main extends React.Component {
             </div>
             <div className="text-block">
                <h1>ICO Website</h1>
-               <p>We proud ourselves for producing amazing products</p>
+               <p>We proud ourselves for building amazing products</p>
                <p>But we need monies to pay our bills (and cars)</p>
                <p>That's why you're here, to give us your monies</p>
                <button>Join Our ICO</button>

@@ -10107,7 +10107,7 @@ var Main = function (_React$Component) {
                _react2.default.createElement(
                   'p',
                   null,
-                  'We proud ourselves for producing amazing products'
+                  'We proud ourselves for building amazing products'
                ),
                _react2.default.createElement(
                   'p',
@@ -23002,7 +23002,7 @@ exports = module.exports = __webpack_require__(49)(undefined);
 
 
 // module
-exports.push([module.i, "* {\n  box-sizing: border-box;\n}\nbody {\n  margin: 0;\n  width: 100%;\n  font-family: 'lato';\n  font-size: 14pt;\n}\nbody > div {\n  width: 100%;\n}\n.static-logo {\n  width: 200px;\n  margin-top: -70px;\n}\n.centered-block {\n  padding: 0 200px;\n}\n.text-block {\n  position: relative;\n  z-index: 100;\n  left: 20%;\n  top: 100px;\n}\n.text-block h1 {\n  font-size: 40pt;\n}\n.text-block p {\n  font-size: 20pt;\n}\n.big-circle {\n  position: absolute;\n  top: 40vh;\n  width: 45vw;\n}\n.medium-circle {\n  position: absolute;\n  right: 0;\n  top: 170vh;\n  width: 40vw;\n}\n.small-circle {\n  position: absolute;\n  right: 10%;\n  top: 18vh;\n  width: 10vw;\n  min-width: 100px;\n}\n@media (max-width: 1375px) {\n  .centered-block {\n    padding: 0 100px;\n  }\n}\n@media (max-width: 1175px) {\n  .centered-block {\n    padding: 0 0;\n  }\n}\n", ""]);
+exports.push([module.i, "* {\n  box-sizing: border-box;\n}\nbody {\n  margin: 0;\n  width: 100%;\n  font-family: 'lato';\n  font-size: 14pt;\n}\nbody > div {\n  width: 100%;\n}\n.static-logo {\n  width: 200px;\n  margin-top: -70px;\n}\n.centered-block {\n  padding: 0 200px;\n}\n.text-block {\n  position: relative;\n  z-index: 100;\n  left: 20%;\n  top: 100px;\n  color: #363537;\n}\n.text-block h1 {\n  font-size: 40pt;\n}\n.text-block p {\n  font-size: 20pt;\n}\n.text-block button {\n  color: #fff;\n  background-color: #363537;\n  cursor: pointer;\n  border: 3px solid #363537;\n  margin: 10px 0 0 0;\n  transition: 0.2s ease-out;\n}\n.text-block button:hover {\n  background-color: #000;\n  border: 3px solid #000;\n  color: #fff;\n}\n.big-circle {\n  position: absolute;\n  top: 40vh;\n  width: 45vw;\n}\n.medium-circle {\n  position: absolute;\n  right: 0;\n  top: 170vh;\n  width: 40vw;\n}\n.small-circle {\n  position: absolute;\n  right: 10%;\n  top: 18vh;\n  width: 10vw;\n  min-width: 100px;\n}\n@media (max-width: 1375px) {\n  .centered-block {\n    padding: 0 100px;\n  }\n}\n@media (max-width: 1175px) {\n  .centered-block {\n    padding: 0 0;\n  }\n}\n", ""]);
 
 // exports
 

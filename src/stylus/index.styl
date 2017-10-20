@@ -1,3 +1,5 @@
+@import './colors'
+
 *
 	box-sizing: border-box
 
@@ -22,12 +24,26 @@ body > div
 	z-index: 100
 	left: 20%
 	top: 100px
+	color: accentuation
 
 	h1
 		font-size: 40pt
 
 	p
 		font-size: 20pt
+
+	button
+		color: white
+		background-color: accentuation
+		cursor: pointer
+		border: 3px solid accentuation
+		margin: 10px 0 0 0
+		transition: 0.2s ease-out
+
+		&:hover
+			background-color: #000000
+			border: 3px solid #000000
+			color: white
 
 .big-circle
 	position: absolute
