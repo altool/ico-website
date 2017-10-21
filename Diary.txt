@@ -1,1 +1,10 @@
 I'm working on the top zone of the website.
+Matching colors scheme:
+
+#363537
+#EF2D56
+#D87235
+#8CD867
+#2FBF71
+
+Next, I'll add movement to the moon and content to the lower section.

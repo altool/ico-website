@@ -53,10 +53,10 @@ class Navigation extends React.Component {
             </div>
             <div className="nav-separator"></div>
             <div className={this.state.isMobile ? 'hide' : 'nav-buttons'}>
-               <a href="#"><button className="draw meet">Whitepaper</button></a>
-               <a href="#"><button className="draw meet">Coin</button></a>
-               <a href="#"><button className="draw meet">Mining</button></a>
-               <a href="#"><button className="draw meet">ICO</button></a>
+               <a className="magic-button draw meet" href="#">Whitepaper</a>
+               <a className="magic-button draw meet" href="#">Coin</a>
+               <a className="magic-button draw meet" href="#">Mining</a>
+               <a className="magic-button draw meet" href="#">ICO</a>
             </div>
             <div className={
                this.state.hasMobileOverlay ? 'nav-overlay' : 'hide'
@@ -64,10 +64,10 @@ class Navigation extends React.Component {
                this.toggleMenu()
             }}>
                <div className='nav-overlay-buttons'>
-                  <a href="#"><button className="draw meet">Whitepaper</button></a>
-                  <a href="#"><button className="draw meet">Coin</button></a>
-                  <a href="#"><button className="draw meet">Mining</button></a>
-                  <a href="#"><button className="draw meet">ICO</button></a>
+                  <a className="magic-button draw meet" href="#">Whitepaper</a>
+                  <a className="magic-button draw meet" href="#">Coin</a>
+                  <a className="magic-button draw meet" href="#">>Mining</a>
+                  <a className="magic-button draw meet" href="#">ICO</a>
                </div>
             </div>
 
