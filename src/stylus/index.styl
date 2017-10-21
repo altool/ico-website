@@ -1,5 +1,7 @@
 @import './colors'
 
+fontSize = 20pt
+
 *
 	box-sizing: border-box
 
@@ -27,10 +29,10 @@ body > div
 	color: accentuation
 
 	h1
-		font-size: 40pt
+		font-size: fontSize * 2
 
 	p
-		font-size: 20pt
+		font-size: fontSize
 
 	button
 		color: white
@@ -49,14 +51,15 @@ body > div
 
 .big-circle
 	position: absolute
-	top: 40vh
-	width: 45vw
+	top: 45vh
+	width: 75vw
+	left: -25vw
 
 .medium-circle
 	position: absolute
-	right: 0
-	top: 170vh
-	width: 40vw
+	right: -25vw
+	top: calc(500px + 40vw)
+	width: 50vw
 
 .small-circle
 	position: absolute
@@ -72,3 +75,17 @@ body > div
 @media (max-width: 1175px)
 	.centered-block
 		padding: 0 0
+
+@media (max-width: 850px)
+	.text-block
+		position: relative
+		z-index: 100
+		left: 20%
+		top: 100px
+		color: accentuation
+
+		h1
+			font-size: 6.5vw
+
+		p
+			font-size: 3vw

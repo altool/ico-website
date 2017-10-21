@@ -22,9 +22,9 @@ class Main extends React.Component {
                <p>That's why you're here, to give us your monies</p>
                <button>Join Our ICO</button>
             </div>
-            <img className="big-circle" src="img/big-circle.png" />
-            <img className="medium-circle" src="img/medium-circle.png" />
-            <img className="small-circle" src="img/small-circle.png" />
+            <img className="big-circle" src="img/big-circle.svg" />
+            <img className="medium-circle" src="img/medium-circle.svg" />
+            <img className="small-circle" src="img/small-circle.svg" />
          </div>
       )
    }

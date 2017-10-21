@@ -10125,9 +10125,9 @@ var Main = function (_React$Component) {
                   'Join Our ICO'
                )
             ),
-            _react2.default.createElement('img', { className: 'big-circle', src: 'img/big-circle.png' }),
-            _react2.default.createElement('img', { className: 'medium-circle', src: 'img/medium-circle.png' }),
-            _react2.default.createElement('img', { className: 'small-circle', src: 'img/small-circle.png' })
+            _react2.default.createElement('img', { className: 'big-circle', src: 'img/big-circle.svg' }),
+            _react2.default.createElement('img', { className: 'medium-circle', src: 'img/medium-circle.svg' }),
+            _react2.default.createElement('img', { className: 'small-circle', src: 'img/small-circle.svg' })
          );
       }
    }]);
@@ -22726,7 +22726,7 @@ var Navigation = function (_React$Component) {
                   _react2.default.createElement(
                      'a',
                      { className: 'magic-button draw meet', href: '#' },
-                     '>Mining'
+                     'Mining'
                   ),
                   _react2.default.createElement(
                      'a',
@@ -22925,7 +22925,7 @@ exports = module.exports = __webpack_require__(49)(undefined);
 
 
 // module
-exports.push([module.i, "nav {\n  width: 100%;\n  box-shadow: 0px 5px 20px 10px #dcdcdc;\n  padding: 0 200px;\n  position: relative;\n}\nnav img {\n  width: 100px;\n  height: 100px;\n  float: left;\n}\nnav.static-menu {\n  box-shadow: none;\n  background-color: transparent;\n}\nnav.static-menu img {\n  display: none;\n}\n.burgerIcon {\n  height: 40px;\n  width: 40px;\n  margin-top: 30px;\n  margin-right: 50px;\n  float: right;\n  cursor: pointer;\n}\n.burgerIcon div {\n  height: 5px;\n  width: 40px;\n  background-color: #808080;\n  margin-top: 7px;\n}\n.nav-separator {\n  width: 50%;\n}\n.nav-buttons {\n  float: right;\n}\n.nav-buttons a {\n  text-align: center;\n  text-decoration: none;\n  height: 100px;\n  line-height: 100px;\n}\n.nav-buttons a button {\n  cursor: pointer;\n}\n.nav-overlay {\n  width: 100vw;\n  height: 100vh;\n  background-color: #55ba37;\n  z-index: 100;\n  position: fixed;\n  top: 0;\n  left: 0;\n}\n.nav-overlay .nav-overlay-buttons {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n.nav-overlay .nav-overlay-buttons a button {\n  color: #fff;\n  cursor: pointer;\n}\n.hide {\n  display: none;\n}\n@media (max-width: 1375px) {\n  nav {\n    padding: 0 100px;\n  }\n}\n@media (max-width: 1175px) {\n  nav {\n    padding: 0 0;\n  }\n}\n", ""]);
+exports.push([module.i, "nav {\n  width: 100%;\n  box-shadow: 0px 5px 20px 10px #dcdcdc;\n  padding: 0 200px;\n  position: relative;\n}\nnav img {\n  width: 100px;\n  height: 100px;\n  float: left;\n}\nnav.static-menu {\n  box-shadow: none;\n  background-color: transparent;\n}\nnav.static-menu img {\n  display: none;\n}\n.burgerIcon {\n  height: 40px;\n  width: 40px;\n  margin-top: 30px;\n  margin-right: 50px;\n  float: right;\n  cursor: pointer;\n}\n.burgerIcon div {\n  height: 5px;\n  width: 40px;\n  background-color: #808080;\n  margin-top: 7px;\n}\n.nav-separator {\n  width: 50%;\n}\n.nav-buttons {\n  float: right;\n}\n.nav-buttons a {\n  text-align: center;\n  text-decoration: none;\n  height: 100px;\n  line-height: 100px;\n}\n.nav-buttons a button {\n  cursor: pointer;\n}\n.nav-overlay {\n  width: 100vw;\n  height: 100vh;\n  background-color: #55ba37;\n  z-index: 101;\n  position: fixed;\n  top: 0;\n  left: 0;\n}\n.nav-overlay .nav-overlay-buttons {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n}\n.nav-overlay .nav-overlay-buttons a button {\n  color: #fff;\n  cursor: pointer;\n}\n.hide {\n  display: none;\n}\n@media (max-width: 1375px) {\n  nav {\n    padding: 0 100px;\n  }\n}\n@media (max-width: 1175px) {\n  nav {\n    padding: 0 0;\n  }\n}\n", ""]);
 
 // exports
 
@@ -22970,7 +22970,7 @@ exports = module.exports = __webpack_require__(49)(undefined);
 
 
 // module
-exports.push([module.i, "* {\n  box-sizing: border-box;\n}\nbody {\n  margin: 0;\n  width: 100%;\n  font-family: 'lato';\n  font-size: 14pt;\n}\nbody > div {\n  width: 100%;\n}\n.static-logo {\n  width: 200px;\n  margin-top: -70px;\n}\n.centered-block {\n  padding: 0 200px;\n}\n.text-block {\n  position: relative;\n  z-index: 100;\n  left: 20%;\n  top: 100px;\n  color: #363537;\n}\n.text-block h1 {\n  font-size: 40pt;\n}\n.text-block p {\n  font-size: 20pt;\n}\n.text-block button {\n  color: #fff;\n  background-color: #363537;\n  cursor: pointer;\n  border: 3px solid #363537;\n  margin: 10px 0 0 0;\n  padding: 30px;\n  font-size: 13pt;\n  transition: 0.2s ease-out;\n}\n.text-block button:hover {\n  background-color: #000;\n  border: 3px solid #000;\n  color: #fff;\n}\n.big-circle {\n  position: absolute;\n  top: 40vh;\n  width: 45vw;\n}\n.medium-circle {\n  position: absolute;\n  right: 0;\n  top: 170vh;\n  width: 40vw;\n}\n.small-circle {\n  position: absolute;\n  right: 10%;\n  top: 18vh;\n  width: 10vw;\n  min-width: 100px;\n}\n@media (max-width: 1375px) {\n  .centered-block {\n    padding: 0 100px;\n  }\n}\n@media (max-width: 1175px) {\n  .centered-block {\n    padding: 0 0;\n  }\n}\n", ""]);
+exports.push([module.i, "* {\n  box-sizing: border-box;\n}\nbody {\n  margin: 0;\n  width: 100%;\n  font-family: 'lato';\n  font-size: 14pt;\n}\nbody > div {\n  width: 100%;\n}\n.static-logo {\n  width: 200px;\n  margin-top: -70px;\n}\n.centered-block {\n  padding: 0 200px;\n}\n.text-block {\n  position: relative;\n  z-index: 100;\n  left: 20%;\n  top: 100px;\n  color: #363537;\n}\n.text-block h1 {\n  font-size: 40pt;\n}\n.text-block p {\n  font-size: 20pt;\n}\n.text-block button {\n  color: #fff;\n  background-color: #363537;\n  cursor: pointer;\n  border: 3px solid #363537;\n  margin: 10px 0 0 0;\n  padding: 30px;\n  font-size: 13pt;\n  transition: 0.2s ease-out;\n}\n.text-block button:hover {\n  background-color: #000;\n  border: 3px solid #000;\n  color: #fff;\n}\n.big-circle {\n  position: absolute;\n  top: 45vh;\n  width: 75vw;\n  left: -25vw;\n}\n.medium-circle {\n  position: absolute;\n  right: -25vw;\n  top: calc(500px + 40vw);\n  width: 50vw;\n}\n.small-circle {\n  position: absolute;\n  right: 10%;\n  top: 18vh;\n  width: 10vw;\n  min-width: 100px;\n}\n@media (max-width: 1375px) {\n  .centered-block {\n    padding: 0 100px;\n  }\n}\n@media (max-width: 1175px) {\n  .centered-block {\n    padding: 0 0;\n  }\n}\n@media (max-width: 850px) {\n  .text-block {\n    position: relative;\n    z-index: 100;\n    left: 20%;\n    top: 100px;\n    color: #363537;\n  }\n  .text-block h1 {\n    font-size: 6.5vw;\n  }\n  .text-block p {\n    font-size: 3vw;\n  }\n}\n", ""]);
 
 // exports
 

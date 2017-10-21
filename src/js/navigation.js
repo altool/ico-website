@@ -66,7 +66,7 @@ class Navigation extends React.Component {
                <div className='nav-overlay-buttons'>
                   <a className="magic-button draw meet" href="#">Whitepaper</a>
                   <a className="magic-button draw meet" href="#">Coin</a>
-                  <a className="magic-button draw meet" href="#">>Mining</a>
+                  <a className="magic-button draw meet" href="#">Mining</a>
                   <a className="magic-button draw meet" href="#">ICO</a>
                </div>
             </div>
